@@ -18,8 +18,8 @@ jobs:
 
       - name: Provide Firebase Android
         run: |
-         echo "FIREBASE_CONFIG_DEV" > google-services.json.b64
-         base64 -d -i google-services.json.b64 > google-services.json
+          echo "FIREBASE_CONFIG_DEV" > google-services.json.b64
+          base64 -d -i google-services.json.b64 > google-services.json
         env:
           FIREBASE_CONFIG_DEV: ${{ secrets.GOOGLE_SERVICES }}
 
