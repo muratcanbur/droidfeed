@@ -1,6 +1,6 @@
 # droidhub
 
-droidfeed is a work-in-progress Android app
+droidhub is a work-in-progress Android app
 
 ## Android development!
 
